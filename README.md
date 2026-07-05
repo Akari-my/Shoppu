@@ -1,38 +1,39 @@
 <img width="2048" height="280" alt="minecraft_title" src="https://github.com/user-attachments/assets/9e2f2df3-02d8-4fa9-9fa7-8c816e5f0c2c" />
 
+# 🛍️ Shoppu
+
 **Shoppu** is a shop plugin for **PocketMine-MP 5** that lets you create custom item shops with categories, buy/sell prices, category icons, and full language support.
 
-## Features
+## ✨ Features
 
-- **Category-based shops** — Organize items into categories with custom names and icons
-- **Buy & Sell** — Configure items as buy-only, sell-only, or both
-- **Category Icons** — Each category shows a Minecraft item texture as its button icon
-- **15 languages** — Fully translatable UI and messages (English, Italian, French, German, Spanish, Portuguese, Dutch, Swedish, Polish, Turkish, Russian, Ukrainian, Japanese, Korean, Chinese)
-- **Economy support** — Built-in BedrockEconomy integration, extensible via interface
-- **Dual storage** — YAML (default) or JSON for shop data
+- **📂 Category-based shops** — Organize items into categories with custom names and icons
+- **💰 Buy & Sell** — Configure items as buy-only, sell-only, or both
+- **🖼️ Category Icons** — Each category shows a Minecraft item texture as its button icon
+- **🌍 15 languages** — Fully translatable UI and messages (English, Italian, French, German, Spanish, Portuguese, Dutch, Swedish, Polish, Turkish, Russian, Ukrainian, Japanese, Korean, Chinese)
+- **🏦 Economy support** — Built-in BedrockEconomy integration, extensible via interface
+- **💾 Dual storage** — YAML (default) or JSON for shop data
 
-## Requirements
+## 📋 Requirements
 
 | Dependency |
 |------------|
 | PocketMine-MP |
 | BedrockEconomy |
 
-## Installation
+## 📥 Installation
 
 1. Download the `Shoppu.phar`
 2. Place it in your server's `plugins/` folder
 3. Restart the server
 4. Edit `plugin_data/Shoppu/shop.yml` to set up your shop
-5. Run `/shop` in-game to browse and trade
 
-## Commands
+## 🎮 Commands
 
 | Command | Description | Permission |
 |---------|-------------|------------|
 | `/shop` | Opens the shop UI | `shoppu.command` |
 
-## Configuration
+## ⚙️ Configuration
 
 ### `config.yml`
 
@@ -45,7 +46,7 @@ economy:
   type: bedrockeconomy             # Economy provider
 ```
 
-### Supported Languages
+### 🌐 Supported Languages
 
 | Code | Language | | Code | Language |
 |------|----------|---|------|----------|
@@ -60,7 +61,7 @@ economy:
 
 > Language files are in `plugin_data/Shoppu/lang/`. Edit them to customize any message.
 
-## Creating a Shop
+## 🏪 Creating a Shop
 
 Shops are defined in `plugin_data/Shoppu/shop.yml`.
 
@@ -98,7 +99,7 @@ gravel:
   sell: 1
 ```
 
-### Category Icons
+### 🖼️ Category Icons
 
 Each category can have an `icon` field pointing to a Minecraft item or block ID:
 
@@ -112,13 +113,13 @@ food:
       sell: 10
 ```
 
-The plugin automatically resolves the correct texture:
-- **Blocks** → `textures/blocks/<id>.png`
-- **Items** → `textures/items/<id>.png`
+The plugin automatically resolves the correct texture path:
+- **Blocks** → `textures/blocks/<id>`
+- **Items** → `textures/items/<id>`
 
 If no icon is set, the button appears without a texture.
 
-### Example Shop
+### 📦 Example Shop
 
 Here's a complete shop with 6 categories covering building blocks, farming, food, ores, mob drops, and redstone components:
 
@@ -214,7 +215,7 @@ categories:
 
 > Use any valid Minecraft item ID: `stone`, `diamond`, `cooked_beef`, `iron_ingot`, `wheat`, `bone`, etc.
 
-## Economy
+## 🏦 Economy
 
 Supports **BedrockEconomy** out of the box.
 
@@ -237,7 +238,7 @@ interface EconomyProvider{
 
 Then register it in `Main::createEconomyProvider()` and set `economy.type` in `config.yml`.
 
-## Translating
+## 🌍 Translating
 
 Language files are in `plugin_data/Shoppu/lang/`. To add a new language:
 
@@ -247,7 +248,7 @@ Language files are in `plugin_data/Shoppu/lang/`. To add a new language:
 
 Available placeholders: `{player}`, `{item}`, `{price}`, `{quantity}`, `{total}`, `{name}`, `{category}`.
 
-## Storage
+## 💾 Storage
 
 | Type | Description |
 |------|-------------|
@@ -262,6 +263,6 @@ Set `storage` in `config.yml` to switch.
 - Pull requests welcome
 - Star the repo if you like the project!
 
-## License
+## 📄 License
 
 MIT
