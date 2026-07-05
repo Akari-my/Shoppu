@@ -1,0 +1,29 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃         Shoppu Plugin         ┃
+# ┃       Main Configuration      ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+# Language setting
+# Available:
+#   eng - English        ita - Italian
+#   fra - French         deu - German
+#   esp - Spanish        por - Portuguese
+#   nld - Dutch          swe - Swedish
+#   pol - Polish         tur - Turkish
+#   rus - Russian        ukr - Ukrainian
+#   jpn - Japanese       kor - Korean
+#   zho - Chinese (Simplified)
+lang: ita
+
+# Message prefix shown in chat
+prefix: "§7[§6Shoppu§7] §r"
+
+# Storage system for shop data (categories and items)
+# Options:
+#   yaml = saves data into YAML files (human-readable, editable)
+#   json = saves data into JSON files
+storage: yaml
+
+# Economy settings
+economy:
+  type: bedrockeconomy

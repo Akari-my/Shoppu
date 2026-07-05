@@ -1,0 +1,10 @@
+name: Shoppu
+version: 1.0.0
+main: Shoppu\Main
+api: 5.0.0
+author: Mellooh
+description: A shop plugin
+
+permissions:
+  shoppu.command:
+    default: true

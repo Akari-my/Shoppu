@@ -1,0 +1,41 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃         Shoppu - English       ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+# ShopCommand
+error-in-game: "§cYou must be in-game to use this command."
+
+# CategoryListForm
+ui-category-title: "§6Shoppu"
+ui-category-content: "§7Select a category:"
+ui-category-button: "§e{name}"
+
+# ItemListForm
+ui-item-title: "§6{category}"
+ui-item-content: "§7Tap an item to buy or sell."
+ui-back: "§c← Back"
+ui-item-name: "§e{name}"
+ui-item-buy: "§8Buy: §6${price}"
+ui-item-sell: " §8| Sell: §6${price}"
+
+# QuantityForm
+ui-quantity-title: "§6{name}"
+ui-quantity-buy-label: "§aBuy §8§6${price} §8each"
+ui-quantity-sell-label: "§cSell §8§6${price} §8each"
+ui-quantity-action: "§7Action"
+ui-quantity-action-buy: "§aBuy"
+ui-quantity-action-sell: "§cSell"
+ui-quantity-slider: "§7Quantity"
+ui-error-title: "§cError"
+
+# ShopManager - Buy
+buy-unavailable: "§cItem not available for purchase."
+buy-insufficient-funds: "§cInsufficient funds."
+buy-inventory-full: "§cInventory full, items dropped on ground, money refunded."
+buy-success: "§aPurchased {item} x{quantity} for ${total}."
+
+# ShopManager - Sell
+sell-unavailable: "§cItem not available for sale."
+sell-no-items: "§cYou don't have enough items to sell."
+sell-failed: "§cTransaction failed."
+sell-success: "§aSold {item} x{quantity} for ${total}."

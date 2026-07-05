@@ -1,0 +1,220 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃         Shoppu - Shop         ┃
+# ┃    Categories & Items Config   ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+# Structure:
+#   categories:
+#     <category_id>:
+#       name: "Display Name"       # Shown in the UI
+#       icon: "stone"              # Item/block for the button icon (optional)
+#       items:
+#         <item_id>:               # Minecraft item/block ID (e.g. stone, apple)
+#           buy: <price>           # Purchase price (remove to make sell-only)
+#           sell: <price>          # Sell price (remove to make buy-only)
+#
+# Examples:
+#   stone:         buy: 10, sell: 5   → players can buy AND sell
+#   diamond:       buy: 500           → buy-only, no sell price
+#   gravel:        sell: 1            → sell-only, no buy price
+
+categories:
+  building:
+    name: "Building Blocks"
+    icon: "stone"
+    items:
+      stone:
+        buy: 10
+        sell: 5
+      cobblestone:
+        buy: 5
+        sell: 2
+      stone_bricks:
+        buy: 15
+        sell: 7
+      gravel:
+        sell: 1
+      sand:
+        buy: 3
+        sell: 1
+      oak_planks:
+        buy: 8
+        sell: 4
+      oak_log:
+        buy: 6
+        sell: 3
+      glass:
+        buy: 12
+        sell: 6
+      brick:
+        buy: 20
+        sell: 10
+
+  farming:
+    name: "Farming"
+    icon: "wheat"
+    items:
+      wheat:
+        buy: 5
+        sell: 2
+      wheat_seeds:
+        buy: 2
+        sell: 1
+      carrot:
+        buy: 8
+        sell: 4
+      potato:
+        buy: 8
+        sell: 4
+      beetroot:
+        buy: 6
+        sell: 3
+      melon:
+        buy: 10
+        sell: 5
+      pumpkin:
+        buy: 12
+        sell: 6
+      sugar_cane:
+        buy: 4
+        sell: 2
+      cactus:
+        buy: 6
+        sell: 3
+      bone_meal:
+        buy: 3
+        sell: 1
+
+  food:
+    name: "Food"
+    icon: "apple"
+    items:
+      apple:
+        buy: 20
+        sell: 10
+      bread:
+        buy: 15
+        sell: 7
+      cooked_beef:
+        buy: 30
+        sell: 15
+      cooked_porkchop:
+        buy: 28
+        sell: 14
+      golden_apple:
+        buy: 200
+        sell: 100
+      cake:
+        buy: 100
+        sell: 50
+      mushroom_stew:
+        buy: 25
+        sell: 12
+      cookie:
+        buy: 5
+        sell: 2
+
+  ores:
+    name: "Ores & Minerals"
+    icon: "diamond"
+    items:
+      coal:
+        buy: 15
+        sell: 8
+      iron_ingot:
+        buy: 50
+        sell: 25
+      gold_ingot:
+        buy: 100
+        sell: 50
+      diamond:
+        buy: 500
+        sell: 250
+      emerald:
+        buy: 300
+        sell: 150
+      netherite_ingot:
+        buy: 2000
+        sell: 1000
+      lapis_lazuli:
+        buy: 40
+        sell: 20
+      redstone:
+        buy: 20
+        sell: 10
+      copper_ingot:
+        buy: 25
+        sell: 12
+
+  mob_drops:
+    name: "Mob Drops"
+    icon: "bone"
+    items:
+      bone:
+        buy: 10
+        sell: 5
+      string:
+        buy: 15
+        sell: 7
+      gunpowder:
+        buy: 20
+        sell: 10
+      spider_eye:
+        buy: 12
+        sell: 6
+      ender_pearl:
+        buy: 200
+        sell: 100
+      blaze_rod:
+        buy: 150
+        sell: 75
+      ghast_tear:
+        buy: 250
+        sell: 125
+      slime_ball:
+        buy: 30
+        sell: 15
+      feather:
+        buy: 8
+        sell: 4
+      leather:
+        buy: 15
+        sell: 7
+      rotten_flesh:
+        buy: 3
+        sell: 1
+
+  redstone:
+    name: "Redstone & Tech"
+    icon: "redstone_dust"
+    items:
+      redstone:
+        buy: 20
+        sell: 10
+      repeater:
+        buy: 50
+        sell: 25
+      comparator:
+        buy: 60
+        sell: 30
+      piston:
+        buy: 40
+        sell: 20
+      sticky_piston:
+        buy: 45
+        sell: 22
+      dispenser:
+        buy: 60
+        sell: 30
+      observer:
+        buy: 55
+        sell: 27
+      hopper:
+        buy: 70
+        sell: 35
+      rail:
+        buy: 15
+        sell: 7
+      powered_rail:
+        buy: 25
+        sell: 12
