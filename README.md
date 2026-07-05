@@ -1,7 +1,5 @@
 <img width="2048" height="280" alt="minecraft_title" src="https://github.com/user-attachments/assets/9e2f2df3-02d8-4fa9-9fa7-8c816e5f0c2c" />
 
-# 🛍️ Shoppu
-
 **Shoppu** is a shop plugin for **PocketMine-MP 5** that lets you create custom item shops with categories, buy/sell prices, category icons, and full language support.
 
 ## ✨ Features
