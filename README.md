@@ -7,7 +7,7 @@
 - **📂 Category-based shops** — Organize items into categories with custom names and icons
 - **💰 Buy & Sell** — Configure items as buy-only, sell-only, or both
 - **🖼️ Category Icons** — Each category shows a Minecraft item texture as its button icon
-- **🌍 15 languages** — Fully translatable UI and messages (English, Italian, French, German, Spanish, Portuguese, Dutch, Swedish, Polish, Turkish, Russian, Ukrainian, Japanese, Korean, Chinese)
+- **🌍 16 languages** — Fully translatable UI and messages (English, Italian, French, German, Spanish, Portuguese, Dutch, Swedish, Polish, Turkish, Russian, Ukrainian, Japanese, Korean, Chinese, Vietnamese)
 - **🏦 Economy support** — Built-in BedrockEconomy integration, extensible via interface
 - **💾 Dual storage** — YAML (default) or JSON for shop data
 
@@ -55,7 +55,7 @@ economy:
 | `pol` | Polish | | `tur` | Turkish |
 | `rus` | Russian | | `ukr` | Ukrainian |
 | `jpn` | Japanese | | `kor` | Korean |
-| `zho` | Chinese (Simplified) | | |
+| `zho` | Chinese (Simplified) | | `vie` | Vietnamese |
 
 > Language files are in `plugin_data/Shoppu/lang/`. Edit them to customize any message.
 

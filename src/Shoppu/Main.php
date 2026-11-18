@@ -23,7 +23,7 @@ class Main extends PluginBase{
     protected function onEnable(): void{
         $this->saveDefaultConfig();
         $this->saveResource("shop.yml");
-        foreach(["eng", "ita", "fra", "deu", "esp", "por", "nld", "swe", "pol", "tur", "rus", "ukr", "jpn", "kor", "zho"] as $lang){
+        foreach(["eng", "ita", "fra", "deu", "esp", "por", "nld", "swe", "pol", "tur", "rus", "ukr", "jpn", "kor", "zho", "vie"] as $lang){
             $this->saveResource("lang/$lang.yml");
         }
         LangManager::init($this);
