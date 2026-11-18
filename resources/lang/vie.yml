@@ -1,0 +1,41 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃          Shoppu - Tiếng Việt   ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+# ShopCommand
+error-in-game: "§cBạn phải ở trong trò chơi để dùng lệnh này."
+
+# CategoryListForm
+ui-category-title: "§6Shoppu"
+ui-category-content: "§7Chọn một danh mục:"
+ui-category-button: "§e{name}"
+
+# ItemListForm
+ui-item-title: "§6{category}"
+ui-item-content: "§7Chọn vật phẩm để mua hoặc bán."
+ui-back: "§c← Quay lại"
+ui-item-name: "§e{name}"
+ui-item-buy: "§8Mua: §6${price}"
+ui-item-sell: " §8| Bán: §6${price}"
+
+# QuantityForm
+ui-quantity-title: "§6{name}"
+ui-quantity-buy-label: "§aMua §8§6${price} §8mỗi món"
+ui-quantity-sell-label: "§cBán §8§6${price} §8mỗi món"
+ui-quantity-action: "§7Giao dịch"
+ui-quantity-action-buy: "§aMua"
+ui-quantity-action-sell: "§cBán"
+ui-quantity-slider: "§7Số lượng"
+ui-error-title: "§cLỗi"
+
+# ShopManager - Buy
+buy-unavailable: "§cVật phẩm này không thể mua."
+buy-insufficient-funds: "§cBạn không đủ tiền."
+buy-inventory-full: "§cTúi đồ đã đầy. Vật phẩm đã rơi xuống đất và tiền đã được hoàn lại."
+buy-success: "§aĐã mua {item} x{quantity} với giá ${total}."
+
+# ShopManager - Sell
+sell-unavailable: "§cVật phẩm này không thể bán."
+sell-no-items: "§cBạn không có đủ vật phẩm để bán."
+sell-failed: "§cGiao dịch thất bại."
+sell-success: "§aĐã bán {item} x{quantity} với giá ${total}."
